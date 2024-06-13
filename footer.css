@@ -1,0 +1,16 @@
+/* Footer styles */
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+.footer__text {
+    margin: 0.5rem 0;
+}
+
+.footer__link {
+    color: #007bff;
+}
