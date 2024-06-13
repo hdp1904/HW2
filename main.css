@@ -1,0 +1,54 @@
+/* Main styles */
+.main {
+    width: 90%;
+    max-width: 1200px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    gap: 2rem 1rem;
+    margin-top: 1rem;
+}
+
+.post {
+    background-color: #fff;
+    border: 3px solid #e0e0e0;
+    border-radius: 0.25rem;
+    width: calc(45% - 1rem);
+    padding: 1rem;
+    position: relative;
+}
+
+.post__category {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.post--design .post__category {
+    color: #28a745;
+}
+
+.post__title {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.post__date {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.post__excerpt {
+    font-size: 1rem;
+    margin: 0.5rem 0 2rem 0;
+}
+
+.post__link {
+    font-size: 0.875rem;
+    color: #007bff;
+    position: absolute;
+    bottom: 10px;
+}
